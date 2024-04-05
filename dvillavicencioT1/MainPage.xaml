@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dvillavicencioT1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Aportes al IESS"
+                TextColor="RED"
+                FontSize="22"
+                HorizontalTextAlignment="Center" />
+
+            <Border  Stroke="Black">
+                <Entry 
+                  x:Name="txtNombre" Placeholder="Ingrese su nombre" PlaceholderColor="OrangeRed"
+                />
+            </Border>
+
+            <Border  Stroke="Black">
+                <Entry 
+                x:Name="txtApellido" Placeholder="Ingrese su apellido" PlaceholderColor="OrangeRed"
+                />
+            </Border>
+
+            <Border  Stroke="Black">
+                <Entry 
+                x:Name="txtEdad" Placeholder="Ingrese su edad" PlaceholderColor="OrangeRed"
+                />
+            </Border>
+
+            <Border  Stroke="Black">
+                <Entry 
+                x:Name="txtSalario" Placeholder="Ingrese su salario" PlaceholderColor="OrangeRed"
+                   />
+            </Border>
+
+            <Button
+                x:Name="btnCalculo"
+                Text="Calcular" 
+                Clicked="btnCalculo_Clicked" AnchorX="28"
+                Padding="16,8"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
