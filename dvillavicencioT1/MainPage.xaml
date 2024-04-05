@@ -10,31 +10,31 @@
 
             <Label
                 Text="Aportes al IESS"
-                TextColor="RED"
+                TextColor="Blue"
                 FontSize="22"
                 HorizontalTextAlignment="Center" />
 
             <Border  Stroke="Black">
                 <Entry 
-                  x:Name="txtNombre" Placeholder="Ingrese su nombre" PlaceholderColor="OrangeRed"
+                  x:Name="txtNombre" Placeholder="Ingrese su nombre" PlaceholderColor="Green"
                 />
             </Border>
 
             <Border  Stroke="Black">
                 <Entry 
-                x:Name="txtApellido" Placeholder="Ingrese su apellido" PlaceholderColor="OrangeRed"
+                x:Name="txtApellido" Placeholder="Ingrese su apellido" PlaceholderColor="Green"
                 />
             </Border>
 
             <Border  Stroke="Black">
                 <Entry 
-                x:Name="txtEdad" Placeholder="Ingrese su edad" PlaceholderColor="OrangeRed"
+                x:Name="txtEdad" Placeholder="Ingrese su edad" PlaceholderColor="Green"
                 />
             </Border>
 
             <Border  Stroke="Black">
                 <Entry 
-                x:Name="txtSalario" Placeholder="Ingrese su salario" PlaceholderColor="OrangeRed"
+                x:Name="txtSalario" Placeholder="Ingrese su salario" PlaceholderColor="Green"
                    />
             </Border>
 

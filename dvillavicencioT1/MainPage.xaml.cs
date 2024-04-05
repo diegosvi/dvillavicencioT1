@@ -19,7 +19,7 @@
 
             int aporte = (int)(salario * 0.0945);
 
-            DisplayAlert("Alerta", "Bienvenido: " + nombre + apellido +"\nTienes " + edad + "años"+ "\nTu aporte mensual es de: " + aporte, "Cerrar");
+            DisplayAlert("Alerta", "Bienvenido: " + nombre + " "+ apellido +"\nTienes: " + edad + "años"+ "\nTu aporte mensual es de: " + aporte, "Cerrar");
 
         }
     }
